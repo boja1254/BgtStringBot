@@ -3,10 +3,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+API_ID = os.getenv("API_ID", "30157302").strip()
+API_HASH = os.getenv("API_HASH", "0052039fb2fca727868d0228cdaad569").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8564446963:AAHgV0iBT_Euwd-kRohu24BamZrSUex6qE8").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://f97073857_db_user:f97073857_db_use@cluster0.dveqkwm.mongodb.net/?appName=Cluster0").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "https://t.me/BikashGadgetsTech")
 
 if not API_ID:
